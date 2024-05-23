@@ -17,9 +17,10 @@ public class Fourth {
 
                 .toList();
 
-long end = System.currentTimeMillis() - start;
-        System.out.println(result);
-        System.out.println(end);
+        long end = System.currentTimeMillis() - start;
+        result.forEach(System.out::println);
+
+        System.out.println(end + " ms");
     }
 
 }
